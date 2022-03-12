@@ -1,0 +1,28 @@
+[
+  {
+    "after": {
+      "id": "111",
+      "a": "aaa",
+      "b": "bbb",
+      "c": {
+        "cc": "ccc"
+      }
+    },
+    "source": {
+      "table": "party"
+    }
+  },
+  {
+    "after": {
+      "id": "222",
+      "d": "ddd",
+      "e": "eee",
+      "f": {
+        "ff": "fff"
+      }
+    },
+    "source": {
+      "table": "item"
+    }
+  }
+]
