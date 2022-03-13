@@ -3,6 +3,6 @@ package model;
 import lombok.Data;
 
 @Data
-public class Source {
+public final class Source {
     private String table;
 }

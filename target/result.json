@@ -1,28 +1,50 @@
 [
   {
     "after": {
-      "id": "111",
-      "a": "aaa",
-      "b": "bbb",
-      "c": {
-        "cc": "ccc"
+      "id": "71b412e4-2bb6-4a04-8b9b-a7445b7ee0a8",
+      "direction": "inbound",
+      "channelCode": "Call center",
+      "createdByDate": "2022-03-11T08:57:04.911619Z",
+      "createdByUserId": "e52f2ee5-b0bb-4dc0-b033-bdf1522aed90",
+      "createdByUserName": "test-superuser1@netcracker.com",
+      "startDate": "2022-03-11T08:56:59.874Z",
+      "endDate": "2022-03-11T08:57:04.517Z",
+      "extendedAttributes": {
+        "telephonyType": [
+          "Cisco"
+        ],
+        "callResults": [
+          "Успешно"
+        ]
       }
     },
     "source": {
-      "table": "party"
-    }
+      "table": "party_interaction",
+      "snapshot": "false",
+      "txId": "4a488aa6-22c7-473f-b87f-cb67d458198b",
+      "ts_ms": 1646989024,
+      "v": 1
+    },
+    "op": "c"
   },
   {
     "after": {
-      "id": "222",
-      "d": "ddd",
-      "e": "eee",
-      "f": {
-        "ff": "fff"
-      }
+      "id": "f94ab730-9823-4051-8ec4-812bb57eeb72",
+      "partyInteractionId": "71b412e4-2bb6-4a04-8b9b-a7445b7ee0a8",
+      "itemDate": "2022-03-11T08:57:04.517Z",
+      "externalRefId": "813664e0-5b75-4c43-a045-3475d7579e55",
+      "externalRefType": "SalesLead",
+      "createdByDate": "2022-03-11T08:57:04.942604Z",
+      "createdByUserId": "e52f2ee5-b0bb-4dc0-b033-bdf1522aed90",
+      "createdByUserName": "test-superuser1@netcracker.com"
     },
     "source": {
-      "table": "item"
-    }
+      "table": "interaction_item",
+      "snapshot": "false",
+      "txId": "4a488aa6-22c7-473f-b87f-cb67d458198b",
+      "ts_ms": 1646989024,
+      "v": 1
+    },
+    "op": "c"
   }
 ]
